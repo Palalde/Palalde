@@ -39,45 +39,10 @@ J'apprends en construisant des projets concrets — pas de bootcamp, pas de tuto
 
 ## Projets
 
-### [CV Interactif](https://github.com/Palalde/CV-interactif) · [Demo live](https://cv-interactif-paul.vercel.app/)
-
-> Site statique vanilla JS — mon CV sous forme d'app interactive chronologique.
-
-Un projet frontend complexe construit sans framework, qui démontre une maîtrise concrète du JavaScript natif et des Web APIs modernes :
-
-- **Navigation** — Slider chronologique avec snap, swipe mobile, historique de navigation (back/forward)
-- **Trading** — Graphique chandelier temps réel (Lightweight Charts v5), crosshair, watermark, thème synchronisé
-- **Leclerc** — Drag & drop HTML5 + Pointer Events (desktop & mobile), balance interactive avec ticket de pesée
-- **Terminal** — Console xterm.js embarquée avec commandes custom, bundlée via esbuild
-- **Recherche** — Moteur de recherche avec autocomplete, filtres, favoris (persistés en localStorage, sync cross-tab)
-- **Thème** — Dark/light mode + générateur de palette couleur via API externe, appliqué en temps réel
-- **Analytics** — Dashboard stats avec Canvas (pie chart), Web Worker pour le calcul, export CSV
-- **Accessibilité** — Focus trap, ARIA, navigation clavier complète, `aria-live` regions
-- **Responsive** — Mobile-first, media query listeners JS, viewport stable (`--app-vh`), gestes tactiles
-
-<details>
-<summary><strong>APIs & techniques utilisées</strong></summary>
-
-`Canvas 2D` · `IntersectionObserver` · `ResizeObserver` · `MutationObserver` · `Web Workers` · `Clipboard API` · `Fetch API` · `Drag & Drop API` · `Pointer Events` · `Touch Events` · `File API` · `Page Visibility` · `matchMedia` · `requestAnimationFrame` · `CustomEvent` · `dynamic import()` · `Promise.all` · `async/await` · `ES Modules` · `IIFE` · `Classes` · `Event delegation` · `Debounce` · `Velocity-based gestures` · `CSS Custom Properties (JS)` · `localStorage` · `sessionStorage` · `cross-tab sync` · `Unicode regex` · `focus trap` · `ARIA`
-
-</details>
-
----
-
-### [ChefPlanning](https://github.com/Palalde/react) · 🚧 En développement
-
-> App React de gestion de planning d'équipe pour la restauration.
-
-Projet d'apprentissage React structuré en phases progressives — chaque feature est un exercice ciblé :
-
-- **Phases 0-6** ✅ — JSX, composants, props, useState, listes, useEffect, custom hooks
-- **Phase 7** ✅ — Lifting state up, assignments, calcul d'heures
-- **Phase 8** ✅ — Custom hooks avancés (`useEmployees`, `useShifts`, `useAssignments`, `useHoursCalculator`)
-- **Phase 9** 🔄 — Composition avancée, refonte UI (tableau Employé×Jour AM/PM), CRUD shifts, navigation semaines
-- **Phase 10** 📘 — Migration TypeScript
-- **Phases 11-12** 📘 — Backend (Hono + Drizzle + PostgreSQL)
-
-`React` · `Vite` · `Tailwind CSS` · `Custom Hooks` · `date-fns`
+| Projet                                                                                                         | Description                                                                                                                                                                                | Stack                                              |
+| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- |
+| **[CV Interactif](https://github.com/Palalde/CV-interactif)** · [Live](https://cv-interactif-paul.vercel.app/) | App frontend complète sans framework — slider chronologique, graphique trading live, drag & drop, terminal embarqué, moteur de recherche, dark/light mode, Web Workers, accessibilité ARIA | `JavaScript` · `HTML/CSS` · `esbuild` · `xterm.js` |
+| **[ChefPlanning](https://github.com/Palalde/react)** · 🚧 En dev                                               | App de gestion de planning d'équipe — custom hooks, composition avancée, CRUD, navigation semaines                                                                                         | `React` · `Vite` · `Tailwind CSS`                  |
 
 ---
 
